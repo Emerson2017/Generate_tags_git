@@ -1,0 +1,44 @@
+GERENCIAMENTO DE TAGS NO GIT:
+
+# Existem dois tipos de tags: lightweight e annotated. 
+# Basicamente as tags "lightweight" ou tags "leves" são as mais simples, e guardam somente o necessário para identificação da versão.
+# Já as tags "annotated" ou tags "anotadas" são mais completas, e guardam mais informações que podem ser usadas futuramente.
+# As duas se diferenciam somente no momento da criação.
+# Aqui irá ser abordado a criação de tags leves:
+
+
+   
+# Listar suas tags locais:
+ $ git tag 
+
+
+# Listar tags remotas:
+ $ git ls-remote --tags <remote>
+
+
+# visualizar as informações de uma tag:
+ $ git show <nome da tag>
+
+
+# Criar uma tag local (Automaticamente a tag vai ser direcionada para o último commit da sua branch atual):
+ $ git tag <nome da tag>
+
+
+# Excluindo tag local:
+ $ git tag -d <nome da tag>
+
+
+# Visualizar último commit da branch atual:
+ $ git log
+
+
+# Subir a tag para o remote desejado:
+ $ git push <remote> <nome da tag>
+
+
+
+ 
+
+
+
+
